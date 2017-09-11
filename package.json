@@ -1,0 +1,26 @@
+{
+  "name": "dashsniff",
+  "version": "1.0.0",
+  "description": "Cross-platform dashsniffer",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js --presets es2015,stage-2",
+    "scan": "babel-node scan.js --presets es2015,stage-2"
+  },
+  "keywords": [
+    "amazon",
+    "dash",
+    "iot"
+  ],
+  "author": "Andrew Chalkley <andrew@chalkley.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "dependencies": {
+    "cap": "^0.1.2",
+    "node-fetch": "^1.7.3"
+  }
+}
